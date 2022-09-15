@@ -1,16 +1,18 @@
 {
-  "name": "Coroku",
-  "description": "The Coroku Web Proxy Site: Fast, Simple, Anonymous",
-  "repository": "https://github.com/kovak7/Coroku-WG",
-  "logo": "https://avatars.githubusercontent.com/u/97852069?s=400&u=e66bc3ca243fea063a3fcecbfae5a2000805642d&v=4"
-}
+    "name": "Coroku",
+    "description": "The Coroku Web Proxy Site: Fast, Simple, Anonymous",
+    "repository": "https://github.com/kovak7/Coroku-WG",
+    "logo": "https://avatars.githubusercontent.com/u/97852069?s=400&u=e66bc3ca243fea063a3fcecbfae5a2000805642d&v=4",
+    "keywords": [
+        "nginx",
+        "docker"
     ],
     "stack": "container",
     "env": {
         "SAFE_BROWSING": {
             "description": "Unset this value to disable. However, if this option is set, then the dns server is set to 1.1.1.3, which blocks malware and adult content. See https://1.1.1.1/family/ for more info",
             "value": "1",
-            "required": false
+            "required": true
         }
     }
 }
