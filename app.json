@@ -1,11 +1,9 @@
 {
-    "name": "Womginx",
-    "description": "Fastest proxy using only nginx as the backend server",
-    "repository": "https://github.com/binary-person/womginx",
-    "logo": "https://raw.githubusercontent.com/binary-person/womginx/master/public/logo.png",
-    "keywords": [
-        "nginx",
-        "docker"
+  "name": "Coroku",
+  "description": "The Coroku Web Proxy Site: Fast, Simple, Anonymous",
+  "repository": "https://github.com/kovak7/Coroku-WG",
+  "logo": "https://avatars.githubusercontent.com/u/97852069?s=400&u=e66bc3ca243fea063a3fcecbfae5a2000805642d&v=4"
+}
     ],
     "stack": "container",
     "env": {
